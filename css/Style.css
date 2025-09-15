@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Story+Script&display=swap');
+body{
+    font-family: "Story Script", sans-serif;
+    background: linear-gradient(90deg, #F29BC4, #5EC8F2);
+    background-size: 200% 200%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(20deg, #F25EBF, #F285CC);
+    border-radius: 50px;
+    background-size: 200% 200%;
+    padding: 15px;
+    height: 80px;
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+
+}
+
+h1{
+    background-image: linear-gradient(#5EC8F2, #F29BC4);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color: transparent;
+    display: inline-block;
+}
+
+img{
+    border: 2px solid ;
+    border-radius: 50px;
+}
+
+img:hover{
+    opacity: .3;
+    transition: 0.5s;
+}
+
+.servicios{
+    list-style: none; 
+    display: flex; 
+    gap: 15px; 
+    padding: 0; 
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    text-align: center;
+}
+
+.servicios2{
+    font-family: "Story Script", sans-serif;
+    text-decoration: none; 
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 6px;
+    background:linear-gradient(50deg, #5EC8F2, #F29BC4);
+    color: black;
+    border-color:#F285CC;
+}
+
+.servicios2:hover{
+    opacity: .3;
+    transition: 0.5s;
+}
+
+.menu{
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.titulos{
+    text-align: center;
+    font-weight:lighter;
+}
+
+.historia{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.historia2{
+    max-width: 280px;
+    margin: 5px 20px;
+    text-align:justify;
+    font-weight:bold;
+}
+
+.historia3{
+    font-family: "Story Script", sans-serif;
+    text-decoration: none; 
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+    background:linear-gradient(50deg, #5EC8F2, #F29BC4);
+    color: black;
+    border-color:#F285CC;
+    margin-left: 100px;
+}
+
+.menu2{
+    text-align: center;
+    max-width: 180px;
+    margin: 5px 20px;
+    padding: 10px;
+    font-weight: bold;
+    background: linear-gradient(20deg, #F25EBF, #F285CC);
+    border-radius: 50px;
+    border: solid black;
+}
+
+.menu3{
+    font-family: "Story Script", sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(50deg, #5EC8F2, #F29BC4);
+    color: black;
+    border-color: #F285CC;
+}
+
+.orden-servicios{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.comida{
+    margin-bottom: 40px;
+}
+
+.alimentos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mapa{
+    margin: 30px auto 30px auto;
+    padding: 5px; 
+    height: 500px; 
+    width: 800px; 
+    box-sizing: border-box;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+}
