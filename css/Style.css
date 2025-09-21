@@ -168,6 +168,49 @@ nav{
     box-sizing: border-box;
 }
 
+.contacto{
+    text-align: center;
+    font-size: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px; 
+}
+
+.from1{
+    font-family: "Story Script", sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(50deg, #5EC8F2, #F29BC4);
+    color: black;
+    border-color: #F285CC;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input, textarea{
+    background: linear-gradient(50deg, #5EC8F2, #F29BC4);
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+::placeholder{
+    color: black;
+    font-family: "Story Script", sans-serif;
+    font-size: 16px;
+}
+
 .footer{
     text-align: center;
     font-weight: bold;
